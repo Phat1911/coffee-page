@@ -1,0 +1,246 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <title>coffee by phat</title>
+    <style>
+        :root{
+            --main-color: #deab5f;
+            --primary-color: #312e2e;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            color: white;
+            text-decoration: none;
+        }
+        #intro{
+            /* background-color: red; */
+            width: 100vw;
+            height: 10vh;
+            font-family: sans-serif;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #intro li{
+            margin-left: 50px;
+            padding: 6px;
+        }
+        #intro li:hover{
+            border-bottom: 2px solid var(--main-color);
+        }
+        #start{
+            width: 100vw;
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: center;
+            transform: translateY(60px);
+        }
+        .button{
+            color: black;
+            background-color: var(--main-color);
+            padding: 5px 20px;
+            transition-duration: 0.5s;
+            transition-property: all;
+        }
+        .button:hover{
+            background-color: black;
+            color: var(--main-color);
+            border: 2px solid var(--main-color);
+        }
+        #start > h1{
+            word-spacing: 10px;
+            font-size: 4rem;
+            line-height: 120px;
+        }
+        .line{
+            width: 110px;
+            height: 2px;
+            background-color: white;
+            transform: translateY(-60px);
+        }
+        #our-story{
+            display: flex;
+            justify-content: space-around;
+            padding: 2px 200px;
+            padding-top: 150px;
+            padding-bottom: 50px;
+            /* background-color: red; */
+            transform: translateY(200px);
+        }
+        .line + .story{
+            width: 30vw;
+        }
+        #our-story > div{
+            width: 39vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            /* background-color: red; */
+        }
+        #our-slogan{
+            /* background-color: red; */
+            transform: translateY(450px);
+            height: 55vh;
+            padding: 0px 100px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #our-slogan > #content{
+            /* background-color: blue; */
+            width: 26vw;
+            height: 35vh;
+        }
+        #card{
+            /* background-color: red; */
+            height: 90vh;
+            transform: translateY(600px);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .dish{
+            width: 350px;
+            height: 500px;
+            border: 3px solid var(--main-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .trick {
+            width: 25px; 
+            height: 2.78px; 
+            background-color: var(--main-color);
+        }
+        .line1{
+            transform: translate(49.4px, -102.4px);
+        }
+        .line2{
+            height: 2.5px; 
+            transform: translate(57px, -100.02px);
+        }
+        .line3{
+            height: 2.42px;
+            transform: translate(-60px, -102.3px);
+        }
+        .line4{
+            transform: translate(-50px, -98.4px);
+        }
+        .line5{
+            height: 2px; 
+            transform: translate(66px, -101px);
+        }
+        footer{
+            width: 100vw;
+            height: 35vh;
+            /* background-color: red; */
+            transform: translateY(600px);
+            border-top: 1px solid white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        footer > div{
+            text-align: center;
+            width: 22vw;
+        }
+    </style>
+</head>
+<body style="background-color: rgba(0, 0, 0, 0.940);">
+    <div id="intro">
+        <div style="display: flex; align-items: center; justify-content: space-between; width: 270px; transform: translateX(-150px);">
+            <img src="asset/z6478576526319_19cb2c835d7305c51bcbeefa05a18c03.jpg" alt="" width="60px" style="border-radius: 100%;">
+            <h1>Café Phát :-))</h1>
+        </div>
+        <ul style="list-style-type: none; display: flex;">
+            <li><a href=""><i class="fa-solid fa-house"></i> Home</a></li>
+            <li><a href="https://github.com/tdhphat-x-bq"><i class="fa-solid fa-address-card"></i> About</a></li>
+            <li><a href="#card"><i class="fa-solid fa-bars"></i> Menu</a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100090521350628"><i class="fa-solid fa-address-book"></i> <abbr title="0764717493">Contact</abbr></a></li>
+        </ul>
+    </div>
+    <div id="start">
+        <h1>START YOUR DAY</h1>
+        <img style="transform: translateY(-15px);" src="asset/z6478133993572_a7849160dcd8c0cfd2ca6a180e6bde03.jpg" alt="" width="400vw">
+        <h1>WITH OUR COFFEE</h1>
+        <a class="button" href="">Shop now</a>
+    </div>
+    <div id="our-story">
+        <img src="asset/z6478184717210_f4a948cdbad0604e0231c30a13cb4663.jpg" alt="" width="350vw"
+        style="transform: translateY(20px);">
+        <div>
+            <div class="line"></div>
+            <div class="story">
+                <h1 style="line-height: 100px; font-size: 5rem;">Our Story</h1>
+                <p style="font-size: 1.2rem;">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    At architecto temporibus nobis omnis sint fugit error, consectetur odio, 
+                    fuga debitis esse blanditiis. Eos iure perferendis impedit at sed. Nihil, deserunt!
+                </p> <br>
+                <a class="button" href="">Learn more</a>
+            </div>
+        </div>
+    </div>
+    <div id="our-slogan">
+        <div id="content">
+            <h1 style="text-transform: capitalize; font-size: 4rem; line-height: 65px;">perfect place to enjoy your <br>coffee</h1>
+            <div style="margin-top: 90px;"><a class="button" href="" style="padding: 10px 20px;">Learn more</a></div>
+        </div>
+        <img src="asset/z6478358564045_4e113d2ccd99af79f864659301f907ef.jpg" alt="" width="450px" height="450px" style="transform: translateY(-80px);">
+    </div>
+    <div id="card">
+        <div class="dish">
+            <img src="asset/z6478358564045_4e113d2ccd99af79f864659301f907ef.jpg" alt="" width="100px" height="100px"
+            style="transform: translateY(-50px);">
+            <div class="trick line1"></div>
+            <div style="font-weight: bold; font-family: sans-serif; margin-top: 20px;">Mocha</div>
+            <div style="line-height: 35px; margin-top: 150px;">
+                Epresso <br> Chocolate <br> Steamed milk
+            </div>
+        </div>
+        <div class="dish">
+            <img src="asset/z6478133993572_a7849160dcd8c0cfd2ca6a180e6bde03.jpg" alt="" width="125px"
+            style="transform: translateY(-50px);">
+            <div class="trick line2"></div>
+            <div class="trick line3"></div>
+            <div style="font-weight: bold; font-family: sans-serif; margin-top: 20px;">Mocha</div>
+            <div style="line-height: 35px; margin-top: 150px;">
+                Epresso <br> Chocolate <br> Steamed milk
+            </div>
+        </div>
+        <div class="dish">
+            <img src="asset/z6478184717210_f4a948cdbad0604e0231c30a13cb4663.jpg" alt="" width="115px" 
+            style="transform: translateY(-50px);">
+            <div class="trick line4"></div>
+            <div class="trick line5"></div>
+            <div style="font-weight: bold; font-family: sans-serif; margin-top: 20px;">Mocha</div>
+            <div style="line-height: 35px; margin-top: 150px;">
+                Epresso <br> Chocolate <br> Steamed milk
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <h1>About US</h1> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor quia repellendus expedita debitis laborum, 
+                iste eaque possimus magnam maiores delectus error, sed voluptatem cumque illum, praesentium quasi cupiditate ipsum?
+            </p>
+        </div>
+        <div>
+            <h1>Contact US</h1> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor quia repellendus expedita debitis laborum, 
+                iste eaque possimus magnam maiores delectus error, sed voluptatem cumque illum, praesentium quasi cupiditate ipsum?
+            </p>
+        </div>
+        <div>
+            <h1>Opening Hours</h1> <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi dolor quia repellendus expedita debitis laborum, 
+                iste eaque possimus magnam maiores delectus error, sed voluptatem cumque illum, praesentium quasi cupiditate ipsum?
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
